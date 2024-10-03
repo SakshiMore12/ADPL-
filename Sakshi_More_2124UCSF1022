@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/SU_CY.page"style="text-align:center">
+<h1>Cybersecurity Department</h1>
+<h2>Student Information</h2>
+
+<form action="/SU_CY.page"style="text-align:center">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="Sakshi More"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value="More"><br><br>
+  <label for="PRN No.">PRN No.</label>
+  <input type="PRN No." id="PRN No."name ="PRN No." value="2124UCSF1022"><br><br>
+ 
+ 
+  <label for="Studying In">Studying In:</label><br>
+  <input type="radio" id="First year" name="standard" value="First year">
+  <label for="First Year">First Year</label><br>
+  <input type="radio" id="Second Year" name="standard" value="Second Year">
+  <label for="Second Year">Second Year</label><br>
+  <input type="radio" id="Third Year" name="standard" value="Third Year">
+  <label for="Third Year">Third Year</label><br>
+  <input type="radio" id="Fourth Year" name="standard" value="Fourth Year">
+  <label for="Fourth Year">Fourth Year</label><br>
+  
+ <input type="submit"value="Submit">
+
+
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>.0
+
